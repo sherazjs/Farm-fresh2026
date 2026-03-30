@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* TOP HEADER */
+.top-bar {
+  background: #0b5d2a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0b5d2a;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links a:hover {
+  color: #f4b400;
+}
+
+/* HERO */
+.hero {
+  background: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* BUTTON */
+.btn {
+  background: #f4b400;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+/* SECTION */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+}
+
+.card h3 {
+  color: #0b5d2a;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #0b5d2a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
